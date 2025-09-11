@@ -15,9 +15,5 @@ class PlateConfig:
 		return list(np.unique(list(self.row_to_patient.values())))
 
 	def set_plate_data(self, data_df):
-		self.stat_df = data_df
+		self.data = data_df
   
-	def calc_log_fold_changes
-
-
-	
